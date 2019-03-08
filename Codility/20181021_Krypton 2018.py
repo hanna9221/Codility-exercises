@@ -1,5 +1,4 @@
 # Krypton 2018
-# https://app.codility.com/cert/view/certJWZEEH-3E5YENQTS9T8X67Y/
 
 def helper(n):
     output = [0]*3
@@ -49,12 +48,3 @@ def solution(A):
         return min(1, dp[N-1][N-1][0], dp[N-1][N-1][1])
     else:
         return min(dp[N-1][N-1][0], dp[N-1][N-1][1])
-
-
-A = [[2,5,10,10],
-     [2,2,5,5],
-     [10,5,5,5],
-     [10,5,5,5]]
-print(solution(A))
-
-
