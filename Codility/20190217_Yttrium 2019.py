@@ -1,5 +1,4 @@
 # Yttrium 2019
-# https://app.codility.com/cert/view/certZDWWY3-HSHMP7GHKQWC5777/
 
 def checkOutside(A):
     res = 0
@@ -30,7 +29,3 @@ def solution(S, K):
             if head==N: return res
             A[ord(S[head])-97] -= 1
     return res
-
-S = "zaaaa"
-K = 2
-print(solution(S, K))
