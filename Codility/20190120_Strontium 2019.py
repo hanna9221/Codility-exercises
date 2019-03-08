@@ -1,5 +1,4 @@
 # Strontium 2019
-# https://app.codility.com/cert/view/certHQEGNQ-DKWRWR3QPH7WVBAZ/
 
 def solution(words):
     res = 0
@@ -56,8 +55,3 @@ def solution(words):
         res = max(res, temp)
     
     return res
-
-
-words=["aaabb","bbbba","aaa"]
-print(solution(words))
-#solution(words)
