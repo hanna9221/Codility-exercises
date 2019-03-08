@@ -1,5 +1,4 @@
 # Zirconium 2019
-# https://app.codility.com/cert/view/certVB92F3-AE2WMHWWZYRRSSCU/
 
 def solution(A, B, F):
     N = len(A)
@@ -13,4 +12,3 @@ def solution(A, B, F):
     for i in range(F, N):
         res += V[i][1]
     return res
-
