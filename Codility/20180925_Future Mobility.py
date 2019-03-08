@@ -1,5 +1,4 @@
 # Future Mobility
-# https://app.codility.com/cert/view/certV7XM67-BBH58TAANDFV3KGT/
 
 def solution(A, B):
     l = len(A)
@@ -41,7 +40,3 @@ def solution(A, B):
     D, r1 = moveRight(C)
     E, r2 = moveRight(D[::-1])
     return (r1+r2)%1000000007
-    
-A = [-1,-1,-1,5,0,-2]
-B = [0,0,0,0,0,0]
-print(solution(A, B))
