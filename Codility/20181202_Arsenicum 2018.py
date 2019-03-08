@@ -1,5 +1,4 @@
 # Arsenicum 2018
-# https://app.codility.com/cert/view/certPZ83ZM-272BWQVQBMMEYCPS/
 
 def solution(s):
     words = s.split()
@@ -77,11 +76,3 @@ def solution(s):
         result = search(len(w), len(w), [w], [], [(0,0,0)])
         if result: return result
     return 'NO'
-
-
-#s = 'abc de fghijklkji hgfedcba'
-#s = 'by metal owl egg mr crow worm my ate'
-#s = 'abcc bc ac'
-#s = 'ab cdab dcba'
-s = 'abcde dcba'
-print(solution(s))
