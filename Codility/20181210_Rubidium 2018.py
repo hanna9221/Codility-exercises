@@ -1,6 +1,4 @@
 # Rubidium 2018
-# https://app.codility.com/cert/view/cert38GZFV-UDXCWECFJ7CVEVSK/
-# https://app.codility.com/cert/view/certENJC74-YJ9N4GGMSDT95ATC/
 
 def solution(X,Y):
     P, Q = [], []
@@ -45,7 +43,3 @@ def solution(X,Y):
                                           abs(Q_inStrip[i][1]-Q_inStrip[i+j][1])))
         return delta_prime if delta_prime<delta else delta
     return run(P,Q)//2
-
-X = [1,1,8]
-Y = [1,6,0]
-print(solution(X,Y))
