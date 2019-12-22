@@ -12,3 +12,4 @@
 * Molybdenum 2019 (gold) - https://app.codility.com/cert/view/certUUMHYW-HPDCWJ7WVGD2BXQC/   
 * Technetium 2019 (gold) - https://app.codility.com/cert/view/certX2W53D-TN93DYSUTVXVDABT/   
 * Ruthenium 2019 (gold)  - https://app.codility.com/cert/view/certMUEPHH-XSGNTJQNKXJCJEH4/   
+* Rhodium 2019 (gold)
